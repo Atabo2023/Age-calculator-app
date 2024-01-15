@@ -1,0 +1,92 @@
+# Frontend Mentor - Age calculator app solution
+
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View an age in years, months, and days after submitting a valid date through the form
+- Receive validation errors if:
+  - Any field is empty when the form is submitted
+  - The day number is not between 1-31
+  - The month number is not between 1-12
+  - The year is in the future
+  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: See the age numbers animate to their final number when the form is submitted
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/Atabo2023/Age-calculator-app)
+- Live Site URL: [Add live site URL here](https://victoragecalculatorapp.netlify.app/)
+
+### Built with
+
+- HTML
+- CSS
+- Javascript
+
+### What I learned
+
+I learnt how to find the curent year in javascript
+I learnt how to use input.value to retrieve value of an input field in javascript
+I learnt how to give unequal border-radius to a card in css
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+<label for="day">day</label>
+<label for="day">month</label>
+<label for="day">year</label>
+```
+
+```css
+.holder {
+  unequal border-radius to the card created.
+}
+```
+
+```js
+const proudOfThisFunc = () => {
+  validate();
+};
+```
+
+### Continued development
+
+AS a beginer frontent developer I will developer myself in further studies, such as creating a function that receive validation errors if:
+
+- Any field is empty when the form is submitted
+  I will also research to debug an error of negative output
+
+### Useful resources
+
+- [Example resource 1](https://github.com/wicaksono37/age-calculator-app-main) - this help me organise my code and help me from writting spaghetti code.
+
+## Author
+
+- Website - [Atabo onuche](https://victoragecalculatorapp.netlify.app/)
+- Frontend Mentor - [@atabo onuche](https://www.frontendmentor.io/profile/OnucheVictorAtabo)
+
+## Acknowledgments
+
+I wish to use this to medium to appreciate Isah muhamad a (Frontend Engineer} for his guards and instruction which making this ideas to be translate into action, I say a big thanks to my boss (Isa muhamad)🎉🎉🎉

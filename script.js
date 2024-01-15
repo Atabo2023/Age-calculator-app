@@ -11,7 +11,7 @@ const yearOtp = document.getElementById("yy");
 
 const form = document.querySelector("form");
 
-form.addEventListener("submit", handleSubmit);
+form.addEventListener("submit", Submit);
 // form.addEventListener("submit", handleSubmit);
 
 const date = new Date();
@@ -24,7 +24,7 @@ function validate() {
   const inputs = document.querySelectorAll("input");
 }
 
-function handleSubmit(e) {
+function Submit(e) {
   e.preventDefault();
   if (validate()) {
     if (dayInp.value > day) {
@@ -38,11 +38,11 @@ function handleSubmit(e) {
     }
   }
 
-  const d = day - dayInp.value;
-  const m = month - monthInp.value;
-  const y = year - yearInp.value;
+  const ddd = day - dayInp.value;
+  const mmm = month - monthInp.value;
+  const yyy = year - yearInp.value;
 
-  dayOtp.innerHTML = d;
-  monthOtp.innerHTML = m;
-  yearOtp.innerHTML = y;
+  dayOtp.innerHTML = ddd;
+  monthOtp.innerHTML = mmm;
+  yearOtp.innerHTML = yyy;
 }

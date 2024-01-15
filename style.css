@@ -31,7 +31,7 @@ body {
   background-color: hsl(0, 0%, 86%);
 }
 
-.card {
+.holder {
   background-color: var(--White);
   box-shadow: 0 0 20px rgb(251, 249, 249);
   width: 35%;
@@ -78,7 +78,7 @@ input {
   display: flex;
   font-size: 1.5rem;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 input::placeholder {
@@ -98,7 +98,7 @@ input::placeholder {
 
 .submit_block hr {
   width: 66%;
-  margin-left: 22px;
+  margin-left: 2rem;
   border: solid 1px black;
 }
 
@@ -111,7 +111,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 385px;
+  width: 24rem;
   /* height: 4px; */
   margin-top: 23px;
 }
