@@ -55,9 +55,11 @@ form {
 
 .form_container {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-left: 23px;
   margin-top: 20px;
+  width: 80%;
+  /* background-color: blue; */
 }
 
 .content {
@@ -79,6 +81,7 @@ input {
   font-size: 1.5rem;
   align-items: center;
   margin-bottom: 2rem;
+  border-radius: 4px;
 }
 
 input::placeholder {

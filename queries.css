@@ -1,0 +1,58 @@
+@media (max-width: 59em) {
+  .form_container {
+    width: 50%;
+    margin-left: 13px;
+    margin-top: 10px;
+    border: none;
+    font-size: 1.3rem;
+  }
+
+  .submit_block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%; */
+
+  .holder {
+    width: 90%;
+  }
+}
+
+@media (max-width: 56em) {
+  .holder {
+    width: 90%;
+  }
+}
+@media (max-width: 60em) {
+  .holder {
+    width: 90%;
+  }
+}
+@media (max-width: 54em) {
+  .holder {
+    width: 90%;
+  }
+}
+@media (max-width: 51em) {
+  .holder {
+    width: 90%;
+  }
+  /* .submit_block hr {
+    width: 55%;
+  } */
+}
+@media (max-width: 40em) {
+  .holder {
+    width: 90%;
+  }
+
+  /* .submit_block hr {
+    width: 55%;
+  } */
+}
